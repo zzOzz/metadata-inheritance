@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: metadata-inheritance
+Bundle-Name: metadata-inheritance
+Bundle-Version: 1.0.qualifier
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Nuxeo
+Nuxeo-Component: OSGI-INF/extensions/fr.udl.nuxeo.marketplace.EditDocu
+ mentListener.xml,OSGI-INF/extensions/fr.udl.nuxeo.marketplace.CreateD
+ ocumentListener.xml
+

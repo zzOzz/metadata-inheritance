@@ -1,0 +1,12 @@
+<component name="fr.udl.nuxeo.marketplace.listener.contrib.EditDocumentListener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent"
+    point="listener">
+
+    <listener name="editdocumentlistener" async="true" postCommit="true"
+      class="fr.udl.nuxeo.marketplace.EditDocumentListener" priority="">
+      <event>documentModified</event>
+    </listener>
+  </extension>
+
+</component>
